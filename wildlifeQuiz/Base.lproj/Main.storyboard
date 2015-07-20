@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3L9-xC-4PI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="wildlifeQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,304 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Platypus is?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kb8-h6-NSb">
+                                <rect key="frame" x="118" y="28" width="148" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.59239951651764233" blue="0.29287738089720461" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="K14-Pv-mr4">
+                                <rect key="frame" x="81" y="112" width="212" height="159"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A signet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n05-lj-vIW">
+                                <rect key="frame" x="137" y="314" width="193" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.59239951651764233" blue="0.29287738089720461" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A beaver like animal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6e-Yb-nmD">
+                                <rect key="frame" x="137" y="374" width="207" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.5923995165" blue="0.29287738089999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A furry mammal with a ducks bill that lays eggs and is poisonous" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0Q-He-nKe">
+                                <rect key="frame" x="137" y="421" width="204" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.5923995165" blue="0.29287738089999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UG-gZ-8eJ" userLabel="aButton">
+                                <rect key="frame" x="81" y="306" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdE-Hw-GUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztG-ra-cli" userLabel="bButton">
+                                <rect key="frame" x="81" y="371" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RrH-rc-TID"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2je-1f-YwB" userLabel="cButton">
+                                <rect key="frame" x="82" y="445" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TSJ-DI-hgL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmV-IJ-Uq9" userLabel="nextButton">
+                                <rect key="frame" x="137" y="535" width="150" height="45"/>
+                                <state key="normal" title="Button" image="next button orange.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gNV-N7-jgW" kind="show" id="KdW-Ys-OSM"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrect button.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zjW-3L-Pq8" userLabel="incorrectBImagesView">
+                                <rect key="frame" x="82" y="369" width="28" height="33"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrect button.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jig-Sk-Dzb" userLabel="incorrectAImageView">
+                                <rect key="frame" x="82" y="304" width="28" height="33"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correct button" translatesAutoresizingMaskIntoConstraints="NO" id="ecP-mz-fVU" userLabel="correctCImageView">
+                                <rect key="frame" x="82" y="445" width="29" height="29"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098040700000002" green="0.066666670139999995" blue="0.25490197539999998" alpha="1" colorSpace="deviceRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="aButton" destination="5UG-gZ-8eJ" id="vZO-PT-oVe"/>
+                        <outlet property="aLabel" destination="n05-lj-vIW" id="uIg-l7-yVn"/>
+                        <outlet property="bButton" destination="ztG-ra-cli" id="Xet-vl-Px7"/>
+                        <outlet property="bLabel" destination="F6e-Yb-nmD" id="dCF-RO-kSH"/>
+                        <outlet property="cButton" destination="2je-1f-YwB" id="AKU-Pj-FQJ"/>
+                        <outlet property="cLabel" destination="Y0Q-He-nKe" id="5qd-S7-aVo"/>
+                        <outlet property="correctCImageView" destination="ecP-mz-fVU" id="Zwn-rz-gM3"/>
+                        <outlet property="incorrectAImageView" destination="jig-Sk-Dzb" id="4ZK-d2-skv"/>
+                        <outlet property="incorrectBImageView" destination="zjW-3L-Pq8" id="c5y-Gj-21k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="22" y="207"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ZES-eI-bP3">
+            <objects>
+                <viewController id="gNV-N7-jgW" customClass="SecondViewController" customModule="wildlifeQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rys-Ew-0Tq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pt1-Fd-L8o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JXe-SG-fuW" customClass="SecondViewControler">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do polar bears eat penguins?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzc-LN-r8V">
+                                <rect key="frame" x="36" y="5" width="299" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="0.4214360203281583" green="0.87253516504288264" blue="0.9133720012626263" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="polar-bear" translatesAutoresizingMaskIntoConstraints="NO" id="WLV-LM-1FI">
+                                <rect key="frame" x="41" y="55" width="288" height="262"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No, its bad for the figure" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUS-fQ-q3D">
+                                <rect key="frame" x="111" y="376" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.42143602029999999" green="0.87253516499999995" blue="0.91337200129999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No, they live in opposite poles of the planet" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHS-zh-GXT">
+                                <rect key="frame" x="111" y="414" width="195" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.42143602029999999" green="0.87253516499999995" blue="0.91337200129999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes, its their favorite snack" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qjv-2E-Vpu">
+                                <rect key="frame" x="106" y="493" width="205" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.42143602029999999" green="0.87253516499999995" blue="0.91337200129999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxk-lM-GPf" userLabel="aButton">
+                                <rect key="frame" x="36" y="372" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aButtonPressed:" destination="gNV-N7-jgW" eventType="touchUpInside" id="66F-Dp-FLp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vja-Fk-91i" userLabel="bButton">
+                                <rect key="frame" x="36" y="428" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bButtonPressed:" destination="gNV-N7-jgW" eventType="touchUpInside" id="n0v-rA-PGw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqc-iG-EDS" userLabel="cButton">
+                                <rect key="frame" x="36" y="489" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cButtonPressed:" destination="gNV-N7-jgW" eventType="touchUpInside" id="CUe-ft-84t"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9230394-Red-cross-button-false-wrong-stop-delete-concepts--Stock-Vector-wrong-not-ok" translatesAutoresizingMaskIntoConstraints="NO" id="vaE-7f-CFe" userLabel="incorrectImageView">
+                                <rect key="frame" x="34" y="369" width="33" height="32"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correct button" translatesAutoresizingMaskIntoConstraints="NO" id="Vxq-QN-wBy" userLabel="correctImageView">
+                                <rect key="frame" x="34" y="427" width="33" height="32"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9230394-Red-cross-button-false-wrong-stop-delete-concepts--Stock-Vector-wrong-not-ok" translatesAutoresizingMaskIntoConstraints="NO" id="wW5-Xs-2A2" userLabel="incorrectImageView">
+                                <rect key="frame" x="34" y="488" width="33" height="32"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whI-BU-H6w" userLabel="nextButton">
+                                <rect key="frame" x="133" y="535" width="150" height="45"/>
+                                <state key="normal" title="Button" image="next button orange">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3L9-xC-4PI" kind="show" id="FWw-TU-hfF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="bxk-lM-GPf" id="JoP-zQ-oxZ"/>
+                        <outlet property="aLabel" destination="dUS-fQ-q3D" id="6Nn-qK-flU"/>
+                        <outlet property="bButton" destination="Vja-Fk-91i" id="DNG-MB-3MP"/>
+                        <outlet property="bLabel" destination="GHS-zh-GXT" id="dUj-34-mhR"/>
+                        <outlet property="cButton" destination="Oqc-iG-EDS" id="EST-kB-Nrn"/>
+                        <outlet property="cLabel" destination="Qjv-2E-Vpu" id="727-q4-Jbr"/>
+                        <outlet property="correctBImageview" destination="Vxq-QN-wBy" id="OtQ-jc-X4J"/>
+                        <outlet property="incorrectAImageView" destination="vaE-7f-CFe" id="Dhn-Fy-5jK"/>
+                        <outlet property="incorrectCImageView" destination="wW5-Xs-2A2" id="InS-b0-evx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jr5-oA-68a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="207"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Z3z-4N-utt">
+            <objects>
+                <viewController id="3L9-xC-4PI" customClass="ThirdViewController" customModule="wildlifeQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A58-Z3-GTd"/>
+                        <viewControllerLayoutGuide type="bottom" id="DDv-LI-joF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TjF-nv-tpI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do giant pandas eat exclusively?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlV-5U-n3K">
+                                <rect key="frame" x="2" y="20" width="390" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" red="0.95158617420000002" green="0.84577692439999996" blue="0.032108039970000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panda" translatesAutoresizingMaskIntoConstraints="NO" id="iAH-3T-E56">
+                                <rect key="frame" x="61" y="67" width="254" height="254"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLq-n7-mss" userLabel="A">
+                                <rect key="frame" x="67" y="352" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aButtonPressed:" destination="3L9-xC-4PI" eventType="touchUpInside" id="oL3-5q-DLg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4U-1O-AsK" userLabel="B">
+                                <rect key="frame" x="67" y="408" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bButtonPressed:" destination="3L9-xC-4PI" eventType="touchUpInside" id="qNY-hQ-Tgz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU5-FA-Cob" userLabel="C">
+                                <rect key="frame" x="67" y="465" width="29" height="29"/>
+                                <state key="normal" title="Button" image="Button-Blank-Red-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cButtonPressed:" destination="3L9-xC-4PI" eventType="touchUpInside" id="ed3-4j-by9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smaller Pandas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1r-Ts-D6a">
+                                <rect key="frame" x="140" y="408" width="132" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.95158617420000002" green="0.84577692439999996" blue="0.032108039970000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bamboo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzr-Pr-WZx">
+                                <rect key="frame" x="140" y="468" width="73" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.95158617420000002" green="0.84577692439999996" blue="0.032108039970000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Burger king" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRy-hj-Xta">
+                                <rect key="frame" x="140" y="355" width="97" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.95158617420000002" green="0.84577692439999996" blue="0.032108039970000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Uk-cp-Hrs">
+                                <rect key="frame" x="138" y="529" width="99" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.24538877479999999" blue="0.25343830810000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Start Over">
+                                    <color key="titleColor" red="0.95158617420000002" green="0.84577692439999996" blue="0.032108039970000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="TLq-n7-mss" id="Qi5-TP-ITk"/>
+                        <outlet property="aLabel" destination="WRy-hj-Xta" id="Ds0-oW-eo1"/>
+                        <outlet property="bButton" destination="W4U-1O-AsK" id="vwh-yV-9wc"/>
+                        <outlet property="bLabel" destination="f1r-Ts-D6a" id="RTS-dc-OKU"/>
+                        <outlet property="cButton" destination="cU5-FA-Cob" id="dCH-iN-zzK"/>
+                        <outlet property="cLabel" destination="Hzr-Pr-WZx" id="SOX-nY-5w7"/>
+                        <outlet property="startOverButton" destination="2Uk-cp-Hrs" id="M8J-Qq-xO9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8X-2K-k4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1337" y="207"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="9230394-Red-cross-button-false-wrong-stop-delete-concepts--Stock-Vector-wrong-not-ok" width="1300" height="1300"/>
+        <image name="Button-Blank-Red-icon" width="128" height="128"/>
+        <image name="Button-Blank-Red-icon.png" width="128" height="128"/>
+        <image name="correct button" width="225" height="225"/>
+        <image name="images-3.jpeg" width="285" height="177"/>
+        <image name="incorrect button.jpg" width="1300" height="1300"/>
+        <image name="next button orange" width="600" height="300"/>
+        <image name="next button orange.png" width="600" height="300"/>
+        <image name="panda" width="221" height="228"/>
+        <image name="polar-bear" width="2560" height="1600"/>
+    </resources>
 </document>

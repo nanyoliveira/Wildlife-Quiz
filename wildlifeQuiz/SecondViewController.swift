@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  wildlifeQuiz
 //
 //  Created by Matt Ariane Clarke on 19/07/2015.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
     
     @IBOutlet weak var aLabel: UILabel!
     @IBOutlet weak var bLabel: UILabel!
     @IBOutlet weak var cLabel: UILabel!
-    
-    
     
     
     @IBOutlet weak var aButton: UIButton!
@@ -24,16 +22,20 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var incorrectAImageView: UIImageView!
-    @IBOutlet weak var incorrectBImageView: UIImageView!
-    @IBOutlet weak var correctCImageView: UIImageView!
-   
+    @IBOutlet weak var correctBImageview: UIImageView!
+    @IBOutlet weak var incorrectCImageView: UIImageView!
+    
+    
+    
+    
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -41,48 +43,42 @@ class ViewController: UIViewController {
     }
     
     @IBAction func aButtonPressed(sender: UIButton) {
-        incorrectAImageView.hidden = false
+        
         aButton.hidden = true
+        incorrectAImageView.hidden = false
+        
         bButton.enabled = false
         cButton.enabled = false
         aLabel.textColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
         
+        
+        
     }
     @IBAction func bButtonPressed(sender: UIButton) {
-        incorrectBImageView.hidden = false
+        
         bButton.hidden = true
+        correctBImageview.hidden = false
+        
         aButton.enabled = false
         cButton.enabled = false
-        bLabel.textColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
         
-        
-        
+        bLabel.textColor = UIColor.greenColor()
     }
-    @IBAction func cButtonPressed(sender:UIButton) {
-        correctCImageView.hidden = false
+    
+    
+    @IBAction func cButtonPressed(sender: UIButton) {
+        
         cButton.hidden = true
+        incorrectCImageView.hidden = false
+        
         aButton.enabled = false
         bButton.enabled = false
-        cLabel.textColor = UIColor.greenColor()
+        cLabel.textColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
+        
     }
     
     
- 
-    
-    
-    
-
-        
-    
-        
-    
-    }
-    
-    
-    
-    
-    
 
 
 
-
+}

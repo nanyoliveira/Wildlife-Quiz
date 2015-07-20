@@ -13,6 +13,20 @@
 		691274A91B5BD00500E898B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691274A81B5BD00500E898B7 /* Images.xcassets */; };
 		691274AC1B5BD00500E898B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 691274AA1B5BD00500E898B7 /* LaunchScreen.xib */; };
 		691274B81B5BD00500E898B7 /* wildlifeQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691274B71B5BD00500E898B7 /* wildlifeQuizTests.swift */; };
+		691274CB1B5BD08800E898B7 /* incorrect button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C11B5BD08800E898B7 /* incorrect button.jpg */; };
+		691274CC1B5BD08800E898B7 /* a274185146ff83ac2a6e78b3208b1789.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C21B5BD08800E898B7 /* a274185146ff83ac2a6e78b3208b1789.jpg */; };
+		691274CD1B5BD08800E898B7 /* be5c2cef12b667b6bda8624aceed55b2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C31B5BD08800E898B7 /* be5c2cef12b667b6bda8624aceed55b2.jpg */; };
+		691274CE1B5BD08800E898B7 /* Button-Blank-Red-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 691274C41B5BD08800E898B7 /* Button-Blank-Red-icon.png */; };
+		691274CF1B5BD08800E898B7 /* Button-Next-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 691274C51B5BD08800E898B7 /* Button-Next-icon.png */; };
+		691274D01B5BD08800E898B7 /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C61B5BD08800E898B7 /* images-3.jpeg */; };
+		691274D11B5BD08800E898B7 /* next-button-4183406.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C71B5BD08800E898B7 /* next-button-4183406.jpg */; };
+		691274D21B5BD08800E898B7 /* correct button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274C81B5BD08800E898B7 /* correct button.jpg */; };
+		691274D31B5BD08800E898B7 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 691274C91B5BD08800E898B7 /* unnamed.png */; };
+		691274D41B5BD08800E898B7 /* Xbox360_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 691274CA1B5BD08800E898B7 /* Xbox360_B.png */; };
+		691274D61B5BD64200E898B7 /* next button orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 691274D51B5BD64200E898B7 /* next button orange.png */; };
+		691274D81B5C390900E898B7 /* polar-bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691274D71B5C390900E898B7 /* polar-bear.jpg */; };
+		691274DA1B5C3E9D00E898B7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691274D91B5C3E9D00E898B7 /* SecondViewController.swift */; };
+		69895A0B1B5D039800A1A47C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69895A0A1B5D039800A1A47C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,20 @@
 		691274B11B5BD00500E898B7 /* wildlifeQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wildlifeQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		691274B61B5BD00500E898B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		691274B71B5BD00500E898B7 /* wildlifeQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wildlifeQuizTests.swift; sourceTree = "<group>"; };
+		691274C11B5BD08800E898B7 /* incorrect button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "incorrect button.jpg"; path = "../incorrect button.jpg"; sourceTree = "<group>"; };
+		691274C21B5BD08800E898B7 /* a274185146ff83ac2a6e78b3208b1789.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a274185146ff83ac2a6e78b3208b1789.jpg; sourceTree = "<group>"; };
+		691274C31B5BD08800E898B7 /* be5c2cef12b667b6bda8624aceed55b2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = be5c2cef12b667b6bda8624aceed55b2.jpg; sourceTree = "<group>"; };
+		691274C41B5BD08800E898B7 /* Button-Blank-Red-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Blank-Red-icon.png"; sourceTree = "<group>"; };
+		691274C51B5BD08800E898B7 /* Button-Next-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Next-icon.png"; sourceTree = "<group>"; };
+		691274C61B5BD08800E898B7 /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		691274C71B5BD08800E898B7 /* next-button-4183406.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "next-button-4183406.jpg"; sourceTree = "<group>"; };
+		691274C81B5BD08800E898B7 /* correct button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "correct button.jpg"; sourceTree = "<group>"; };
+		691274C91B5BD08800E898B7 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		691274CA1B5BD08800E898B7 /* Xbox360_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xbox360_B.png; sourceTree = "<group>"; };
+		691274D51B5BD64200E898B7 /* next button orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next button orange.png"; sourceTree = "<group>"; };
+		691274D71B5C390900E898B7 /* polar-bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polar-bear.jpg"; sourceTree = "<group>"; };
+		691274D91B5C3E9D00E898B7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		69895A0A1B5D039800A1A47C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +87,18 @@
 		691274931B5BD00500E898B7 = {
 			isa = PBXGroup;
 			children = (
-				6912749E1B5BD00500E898B7 /* wildlifeQuiz */,
 				691274B41B5BD00500E898B7 /* wildlifeQuizTests */,
-				6912749D1B5BD00500E898B7 /* Products */,
+				6912749E1B5BD00500E898B7 /* wildlifeQuiz */,
+				691274C21B5BD08800E898B7 /* a274185146ff83ac2a6e78b3208b1789.jpg */,
+				691274C31B5BD08800E898B7 /* be5c2cef12b667b6bda8624aceed55b2.jpg */,
+				691274C41B5BD08800E898B7 /* Button-Blank-Red-icon.png */,
+				691274C51B5BD08800E898B7 /* Button-Next-icon.png */,
+				691274D51B5BD64200E898B7 /* next button orange.png */,
+				691274C61B5BD08800E898B7 /* images-3.jpeg */,
+				691274C71B5BD08800E898B7 /* next-button-4183406.jpg */,
+				691274C81B5BD08800E898B7 /* correct button.jpg */,
+				691274C91B5BD08800E898B7 /* unnamed.png */,
+				691274CA1B5BD08800E898B7 /* Xbox360_B.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,17 +109,21 @@
 				691274B11B5BD00500E898B7 /* wildlifeQuizTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6912749E1B5BD00500E898B7 /* wildlifeQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				6912749F1B5BD00500E898B7 /* Supporting Files */,
 				691274A11B5BD00500E898B7 /* AppDelegate.swift */,
 				691274A31B5BD00500E898B7 /* ViewController.swift */,
+				691274D91B5C3E9D00E898B7 /* SecondViewController.swift */,
 				691274A51B5BD00500E898B7 /* Main.storyboard */,
+				69895A0A1B5D039800A1A47C /* ThirdViewController.swift */,
 				691274A81B5BD00500E898B7 /* Images.xcassets */,
-				691274AA1B5BD00500E898B7 /* LaunchScreen.xib */,
-				6912749F1B5BD00500E898B7 /* Supporting Files */,
+				691274C11B5BD08800E898B7 /* incorrect button.jpg */,
+				691274D71B5C390900E898B7 /* polar-bear.jpg */,
 			);
 			path = wildlifeQuiz;
 			sourceTree = "<group>";
@@ -90,6 +131,7 @@
 		6912749F1B5BD00500E898B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				691274AA1B5BD00500E898B7 /* LaunchScreen.xib */,
 				691274A01B5BD00500E898B7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -98,6 +140,7 @@
 		691274B41B5BD00500E898B7 /* wildlifeQuizTests */ = {
 			isa = PBXGroup;
 			children = (
+				6912749D1B5BD00500E898B7 /* Products */,
 				691274B71B5BD00500E898B7 /* wildlifeQuizTests.swift */,
 				691274B51B5BD00500E898B7 /* Supporting Files */,
 			);
@@ -192,9 +235,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691274D61B5BD64200E898B7 /* next button orange.png in Resources */,
+				691274CC1B5BD08800E898B7 /* a274185146ff83ac2a6e78b3208b1789.jpg in Resources */,
+				691274D11B5BD08800E898B7 /* next-button-4183406.jpg in Resources */,
+				691274D31B5BD08800E898B7 /* unnamed.png in Resources */,
+				691274D01B5BD08800E898B7 /* images-3.jpeg in Resources */,
+				691274CD1B5BD08800E898B7 /* be5c2cef12b667b6bda8624aceed55b2.jpg in Resources */,
+				691274CE1B5BD08800E898B7 /* Button-Blank-Red-icon.png in Resources */,
 				691274A71B5BD00500E898B7 /* Main.storyboard in Resources */,
+				691274D41B5BD08800E898B7 /* Xbox360_B.png in Resources */,
+				691274D21B5BD08800E898B7 /* correct button.jpg in Resources */,
+				691274D81B5C390900E898B7 /* polar-bear.jpg in Resources */,
 				691274AC1B5BD00500E898B7 /* LaunchScreen.xib in Resources */,
+				691274CF1B5BD08800E898B7 /* Button-Next-icon.png in Resources */,
 				691274A91B5BD00500E898B7 /* Images.xcassets in Resources */,
+				691274CB1B5BD08800E898B7 /* incorrect button.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691274DA1B5C3E9D00E898B7 /* SecondViewController.swift in Sources */,
 				691274A41B5BD00500E898B7 /* ViewController.swift in Sources */,
+				69895A0B1B5D039800A1A47C /* ThirdViewController.swift in Sources */,
 				691274A21B5BD00500E898B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +468,7 @@
 				691274BD1B5BD00500E898B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		691274BE1B5BD00500E898B7 /* Build configuration list for PBXNativeTarget "wildlifeQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +477,7 @@
 				691274C01B5BD00500E898B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
